@@ -1,7 +1,7 @@
 import alchemy
 import traceback
 
-if __name__== "__main__":
+if __name__ == "__main__":
     print("=== Alembic 4 ===")
     print("Accessing alchemy module using 'import alchemy'")
     print(f"Testing create_air: {alchemy.create_air()}")
@@ -13,3 +13,5 @@ if __name__== "__main__":
     except AttributeError:
         error_message = traceback.format_exc()
         print(error_message)
+
+    print()
